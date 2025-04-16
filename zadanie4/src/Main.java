@@ -8,5 +8,8 @@ public class Main {
 
         Klient klient1 = new Klient();
         klient1.wyswietlInformacjeKlient();
+
+        Zamowienie zamowienie1 = new Zamowienie();
+        zamowienie1.wyswietlInformacjeZamowienie();
     }
 }
