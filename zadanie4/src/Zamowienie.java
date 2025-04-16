@@ -2,7 +2,7 @@ public class Zamowienie {
     private int id;
     private Klient klient;
     private Produkt produkt;
-    private int ilosc[];
+    private int[] ilosc;
     private String data;
     private String status;
 
@@ -60,5 +60,10 @@ public class Zamowienie {
         System.out.println("Ilosc zamowiona: "+ilosc);
         System.out.println("Data zamowiania: "+data);
         System.out.println("Status zamowienia: "+status);
+    }
+    public void zastosujZnizke(){
+        if (getKlient().czyStaly == true ){
+            double znizka=0.9;
+        }
     }
 }

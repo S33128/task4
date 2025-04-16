@@ -8,7 +8,7 @@ public class SklepKomputerowy {
 
     public void dodajProdukt(Produkt produkt) {}
     public void dodajKlient(Klient klient) {}
-    public void utworzZamowienie(Klient klient, Produkt[] produkt, Zamowienie[] zamowienia) {}
+    public void utworzZamowienie(Klient klient, Produkt[] produkt, int[] ilosci) {}
     public void aktualizujStanMagazynu(Zamowienie zamowienie) {}
     public void zmienStatusZamowienia(int idZamowienia, String nowyStatus) {}
     public void wyswietlProuktyWKategori(String kategoria){}

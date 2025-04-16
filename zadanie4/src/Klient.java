@@ -3,7 +3,7 @@ public class Klient {
     private String imie;
     private String nazwisko;
     private String email;
-    private boolean czyStaly;
+    public boolean czyStaly;
 
     public int getId() {
         return id;
