@@ -44,7 +44,7 @@ public class Produkt {
     public void setIloscMagazyn(int iloscMagazyn) {
         this.iloscMagazyn = iloscMagazyn;
     }
-    public void wyswietlInformacje(){
+    public void wyswietlInformacjeProdukt(){
         System.out.println("Id produkt: " + id);
         System.out.println("Nazwa produktu: " + nazwa);
         System.out.println("Kategoria produktu: " + kategoria);
