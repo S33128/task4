@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Produkt produkt1 = new Produkt();
+        produkt1.wyswietlInformacje();
     }
 }
